@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/nahixzxi/app.nahid24.com/
+    - /bin/cp -R * $DEPLOYPATH
